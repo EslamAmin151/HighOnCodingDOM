@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+
+}
+
+.header {
+  background-color: #4c8bef;
+  width: 100%;
+  color: white;
+  display: inline-block;
+  height: 75px;
+}
+
+.header h1 {
+  margin: 15px 30px;
+  font-size: 2.5em;
+  float: left;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+#home {
+  font-weight: 700;
+}
+
+.curse {
+  width: 90%;
+  background-color: #b4b9c1;
+  margin: auto;
+
+}
+
+.curse h2 {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 2em;
+  color: #5f697a;
+}
+
+.curse p {
+  padding: 0 15px 15px 15px;
+}
+
+.articles {
+  width: 90%;
+  margin:auto;
+}
+
+.articles h4 {
+  color: blue;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.comments {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.comments span {
+  padding-right: 10px;
+}
+
+/*Categories*/
+
+.container {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.box {
+  color: #636e72;
+  background-color: #dfe6e9;
+  margin: 10px 20px 10px 20px;
+  display: inline-block;
+  font-size: 32px;
+  width: 29.4%; /* Calculated by subtracting the 15px of margin from each side of each box from 1148px, dividing by 3 and calculating % of total 1148px.*/
+  text-align: center;
+  padding: 25px 0 25px 0;
+
+}
+
+.box h3 {
+  font-weight: 100;
+  vertical-align: baseline;
+}
+
+.box p {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 0;
+
+}
+
+#VBNET {
+  text-decoration: underline;
+}
